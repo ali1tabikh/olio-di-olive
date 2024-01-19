@@ -1,0 +1,285 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.background {
+  /* The image used */
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("home_background.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ nav{
+        display: flex;
+        padding: 3% 6%;
+        justify-content: space-between;
+        align-items: center;
+   }
+    .nav-links{
+        flex: 1;
+        text-align: right;
+      }
+       .nav-links ul li{
+             list-style: none;
+             display: inline-block;
+             padding: 8px 12px;
+             position: relative;
+        }
+         .nav-links ul li a{
+             color: #fff;
+             text-decoration: none;
+             font-size: 13px;
+        }
+        .nav-links ul li::after{
+          content: '';
+          width: 0%;
+          height: 2px;
+          background: #f44336;
+          display: block;
+          margin: auto;
+          transition: 0.5s;
+
+        }
+        .nav-links ul li:hover::after{
+              width: 100%;
+         }
+.text-box {
+               margin: 10px 0 40px;
+               font-size: 14px;
+               color:  #fff;
+               }
+               .hero-btn{
+                     display: inline-block;
+                     text-decoration: none;
+                     color: #fff;
+                     border: 1px solid #fff;
+                     padding: 12px 34 px;
+                     font-size: 23px;
+                     background: transparent;
+                     position: relative;
+                     cursor: pointer;
+
+
+                     margin: 0 10px 20px 20px;
+
+                     }
+
+
+
+
+@font-face {
+  font-family: 'beautiful_ barbies'; /* Choose a name for your cursive font */
+  src: url('beautiful_ barbies.otf') format('otf'); /* Replace with the actual path to your cursive font file and format */
+  /* You can add additional font formats (e.g., woff, ttf) for better browser compatibility */
+}
+
+
+
+
+.title-text{
+margin: 0 100px 20px 20px;
+   font-size: 44px;
+   color: #c6e2ff;
+}
+.paragraf-text{
+ font-family: 'beautiful_ barbies', cursive;
+  margin: 0 10px 20px 20px;
+  margin-right: 500px;
+
+   font-size: 24px;
+   color: #d0d0d0;
+
+    position: absolute;
+  top: 75%;
+  right: 10px;
+
+      line-height: 2;
+  display: inline-block;
+  vertical-align: middle;
+  horizontal-align: middle;
+}
+ /*----- course -----*/
+
+ .course{
+          width: 80%
+          margin: auto;
+          text-align: center;
+          padding-top: 100px;
+
+          }
+.title_2{
+text-align: center;
+padding-right: 0px;
+}
+
+
+
+
+h1{
+     font-size: 36px;
+     font-weight: 600;
+
+
+     }
+
+
+p{
+     color: #777;
+     font-size: 14px;
+     font-weight: 300;
+     line-height: 22px;
+     padding: 10px;
+     }
+
+
+ .row{
+            margin-top: 5%;
+            display: flex;
+            justify-content: space-between;
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+.course-col{
+               flex-basis: 31%;
+               background: #fff3f3;
+               border-radius: 10px;
+               margin-bottom: 5%;
+               padding: 20px 12px;
+               box-sizing: border-box;
+               transition: 0.5s;
+
+                 padding: 0px 20px 20px 20px;
+               }
+
+  h3{
+        text-align: center;
+        font-weight: 600;
+        margin: 10px 0;
+        }
+
+ .course-col:hover{
+          box-shadow: 0 0 20px 0px rgba(0,0,0.2);
+
+
+          }
+ @media(max-width: 700px){
+       .row{
+             flex-direction: column;
+
+       }
+       }
+
+
+ .olio{
+        text-align: center;
+        font-size: 20px;
+
+}
+.varn{
+        font-size: 35px;
+
+}
+.bor{
+        font-size: 18px;
+}
+.para{
+        font-size:35px;
+}
+.opo{
+        font-size: 18px;
+}
+.kara{
+        font-size:35px;
+}
+.opi{
+        font-size:18px;
+
+}
+
+ /*--------  campus -------*/
+
+  .campus{
+              width: 80%;
+              margin: auto;
+              text-align: center;
+              padding-top: 50px;
+
+              }
+
+   .olioso{
+               flex-basis: 32%;
+                        border-radius: 10px;
+                        margin-bottom: 30px;
+                        position: relative;
+                        overflow: hidden;
+                        }
+
+   .olioso-img{
+              width: 600px;
+              height: 300px;
+
+              display: block;
+              }
+.aaa{
+         font-size: 25px;
+
+
+}
+.HOUS{
+        font-size: 25px;
+
+}
+.qqq{
+             width: 500px;
+              height: 300px;
+              display: block;
+
+                 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+.er{
+        font-size: 35px;
+
+}
+.mus{
+         font-size: 25px;
+
+}
+.pi{
+        font-size: 25px;
+
+
+}
+.pob{
+        font-size: 35px;
+
+
+}
+
+
+
+
+
+
+
+
+
